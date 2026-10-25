@@ -1,14 +1,30 @@
 # Requirements
 
-## Functional requirements (what the system must DO)
-1. The system shall present visual key word cards with some words in the Quran and their verified meanings to facilitate memorization.
-2.  The system should offer interactive activities in which children can arrange words or parts of verses of the Quran in order.
-3. The system shall show verified meanings and then provide textually or semantically related meanings and relationships to selected Quranic words and verses.
-4. The system shall offer memorization practice activities and display feedback to the user whether the provided word/verse sequence is correct or incorrect. 
-5. The system will display the meaning of Quranic text and associated meanings with the use of verified sources in order to ensure the accuracy and reliability of the learning materials.
+## Functional requirements 
+1. Visual Keyword Cards
+The system shall present visual keyword cards of selected words with their verified meanings from an approved source.
+
+2. Textual and Semantic Relationships
+The system shall show verified meanings and then provide textually or semantically related meanings and relationships to selected Quranic words and verses.
+
+3. LLM-Assisted Learning Cues
+The system shall use a Large Language Model (LLM) to generate proposed memorization learning cues based on provided, verified source material.
+
+4. Memorization Feedback
+The system shall offer memorization practice activities and display feedback to the user whether the provided word/verse sequence is correct or incorrect.
+
+5. Interactive Word Sequencing
+The system shall offer interactive activities in which children can arrange words or parts of verses of the Quran in order.
 
 
-## Non-functional requirements (how the system must PERFORM)
-1. The system shall present the text for a memorization activity that has been selected under the specified test conditions within 3 seconds.
-2. The system shall facilitate the memorization activities of the Android mobile applications with the minimum Android version required for the application.
-3. The system shall enable at least 4 out of 5 representative child participants to complete a word sequencing exercise without any assistance after the child has been given basic instructions.
+
+## Non-functional requirements 
+1. Response Time
+The system shall present a selected memorization activity within 3 seconds in at least 95 % of 20 test runs under documented test conditions.
+
+2. Quranic Text Accuracy
+The system shall present the same text of the Quran that has been verified by the designated source with no discrepancies found in the entire set of defined test Quran verses.
+
+3. Usability
+The system shall complete a word-sequencing task without support, based on the same standard instructions for 4 out of 5 representative primary school children.
+
